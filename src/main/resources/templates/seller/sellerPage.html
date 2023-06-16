@@ -48,7 +48,7 @@
                     ~~님 환영
                 </a>
 
-                <a class="btn btn-outline-dark" href="#" th:text="|현재잔액: ${seller.getMoney()} ₩|">
+                <a class="btn btn-outline-dark" th:href="@{/seller/{id}(id=${seller.getId()})}" th:text="|현재잔액: ${seller.getMoney()} ₩|">
                     현재잔액 : 10000 ₩
                 </a>
                 <a class="btn btn-outline-dark" th:href="@{/logout}">
