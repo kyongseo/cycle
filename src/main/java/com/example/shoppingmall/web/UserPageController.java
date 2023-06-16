@@ -150,9 +150,7 @@ public class UserPageController {
         model.addAttribute("user", userPageService.findUser(id));
 
         return "/user/userCart";
-
     }
-
 
 
     // 장바구니 구매 진행
