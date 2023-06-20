@@ -72,11 +72,11 @@
 ## 🥁 실행 방법
 ## 🔖 노하우 공유
 
-[[Spring] DAO와 DTO]([https://github.com/kyounggseo/share-knowhow/blob/main/share%20knowhow%20/%5BSpring%5D%20DAO%EC%99%80%20DTO.md])
+[[Spring] DAO와 DTO](https://github.com/kyounggseo/share-knowhow/blob/main/share%20knowhow%20/%5BSpring%5D%20DAO%EC%99%80%20DTO.md)
 
-[[Spring] Spring Data JPA 정리]([https://github.com/kyounggseo/share-knowhow/blob/main/share%20knowhow%20/%5BSpring%5D%20Spring%20Data%20JPA%20%EC%A0%95%EB%A6%AC.md])
+[[Spring] Spring Data JPA 정리](https://github.com/kyounggseo/share-knowhow/blob/main/share%20knowhow%20/%5BSpring%5D%20Spring%20Data%20JPA%20%EC%A0%95%EB%A6%AC.md)
 
-[[Spring] Spring Security]([https://github.com/kyounggseo/share-knowhow/blob/main/share%20knowhow%20/%5BSpring%5D%20Spring%20Security.md])
+[[Spring] Spring Security](https://github.com/kyounggseo/share-knowhow/blob/main/share%20knowhow%20/%5BSpring%5D%20Spring%20Security.md)
 
 [[Spring] Springboot build and deploy tools](https://github.com/kyounggseo/share-knowhow/blob/main/share%20knowhow%20/%5BSpring%5D%20Springboot%20build%20and%20deploy%20tools.md)
 
