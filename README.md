@@ -39,6 +39,7 @@
 ## 🛠 아키텍처
 
 ## 💾 DB 스키마 구성
+![image](https://github.com/kyounggseo/cycle/assets/102573192/31076554-7703-4b3a-a61d-87930e68ae8b)
 
 <h3>DB 설계</h3>
 
