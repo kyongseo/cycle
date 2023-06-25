@@ -1,5 +1,5 @@
-
 # 📢 cycle: Springboot와 AWS를 활용한 중고거래 사이트
+
 <br><br>
 
 ## 🖊️ 프로젝트 설명
@@ -9,7 +9,6 @@
 - 결제 기능 또한 구현 했습니다.
 
 <br><br>
-
 
 ## 📆 프로젝트 기간
 
@@ -35,8 +34,13 @@
 4. DB : MariaDB Driver
 5. Deploy : AWS EC2
 6. Etc: Thymeleaf, Spring Security, JPA, AWS S3, Lombok
+   
+<br><br>
 
 ## 🛠 아키텍처
+![image](https://github.com/kyounggseo/cycle/assets/102573192/3d536912-2221-4f4d-8300-0dcf698c5232)
+
+<br><br>
 
 ## 💾 DB 스키마 구성
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/31076554-7703-4b3a-a61d-87930e68ae8b)
@@ -49,7 +53,8 @@
 - Cart_item
 - Board
 - History
-
+  
+<br><br>
 
 ## 🎯 구현 결과
 
@@ -71,6 +76,9 @@
 <br><br>
 
 ## 🥁 실행 방법
+
+<br><br>
+
 ## 🔖 노하우 공유
 
 [[Spring] DAO와 DTO](https://github.com/kyounggseo/share-knowhow/blob/main/share%20knowhow%20/%5BSpring%5D%20DAO%EC%99%80%20DTO.md)
@@ -89,10 +97,9 @@
 
 [[Spring] 서버 재시작하지 않고 view 변경 확인하기](https://github.com/kyounggseo/share-knowhow/blob/main/share%20knowhow%20/%5BSpring%5D%20%EC%84%9C%EB%B2%84%20%EC%9E%AC%EC%8B%9C%EC%9E%91%ED%95%98%EC%A7%80%20%EC%95%8A%EA%B3%A0%20view%20%EB%B3%80%EA%B2%BD%20%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0.md)
 
+<br><br>
+
 ## ☝ 제작 후기
 - @Transactional 어노테이션에 대해 공부하게 되었습니다.
 - JPA 연관관계에 대해 더욱 잘 알게되는 계기가 되었습니다.
 - 세션과 ROLE을 이용하여 역할별 기능을 구분하는 페이지를 만드는 방법에 대해 알게 되었습니다.
-
-
-<hr>
