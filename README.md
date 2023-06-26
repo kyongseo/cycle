@@ -22,7 +22,7 @@
 | 5.04(목) ~ 5.15(월) | Spring security로 회원가입, 로그인 구현<br />API 스펙 구성하기<br />DB 스키마 최종 완료<br />판매자 및 구매자를 나눠 페이지 렌더링을 다르게 함 |
 | 5.16(화) ~ 5.25(목) | Entity 클래스 설계 및 JPA로 연관관계 설정<br />마이페이지 제작<br /> 장바구니 구매 기능 구현 |
 | 5.26(금) ~ 6.01(월) | 장바구니 구매 오류 해결<br />구매내역 구현<br /> 판매 글쓰기: Post API 제작<br /> 판매 통계 및 판매 순위 구현 |
-| 6.02(화) ~  | 판매 상세 페이지 구현<br />금액 충전 구현 및 최종 완성<br /> AWS S3에 이미지 저장 기능 구현                  |
+| 6.02(화) ~  | 판매 상세 페이지 구현<br />금액 충전 구현 및 최종 완성<br /> AWS S3에 이미지 저장 기능 구현 |
 
 <br><br>
 
@@ -60,19 +60,45 @@
 
 #### 1) 회원가입/로그인
 - [x] 회원가입
-- [x] 로그인
+![image](https://github.com/kyounggseo/cycle/assets/102573192/6e597f73-b1ea-489a-835e-3967ea6bf6c6)
 
-#### 2) 메인 페이지(홈)
+- [x] 로그인
+![image](https://github.com/kyounggseo/cycle/assets/102573192/f4fe0667-b9e7-40d0-99a5-98b6148fa082)
+
+#### 2) 판매자 메인 페이지(홈)
 
 - [x] 물건 리스트 보기
+![image](https://github.com/kyounggseo/cycle/assets/102573192/6dbbb4da-db64-4100-b849-612c7a177df3)
+
 - [x] 물건 업로드
+![image](https://github.com/kyounggseo/cycle/assets/102573192/667e9768-33e7-4cbe-bc7e-82efc4493e8f)
+![image](https://github.com/kyounggseo/cycle/assets/102573192/10ef9fd7-48f5-4388-a318-56461ae02f77)
+
+- [x] 물건 상세페이지 보기<br>
+
+- 판매목록
+![image](https://github.com/kyounggseo/cycle/assets/102573192/a3c1700b-2682-4c32-85e4-dfec246d796f)
+- 판매통계 및 판매량 순위
+![image](https://github.com/kyounggseo/cycle/assets/102573192/dc945523-3d1a-43b3-9cd4-c717d3d4efee)
+
+#### 3) 판매자 마이 페이지
+
+- [x] 내 정보 수정하기
+- [x] ???????????????/
+
+#### 4) 구매자 메인 페이지(홈)
+
+- [x] 물건 리스트 보기
+
+- [x] 물건 업로드
+
 - [x] 물건 상세페이지 보기
 
-#### 3) 마이 페이지
+#### 5) 구매자 마이 페이지
+- [x] 내정보 수정하기
+- [x] 금액 충전하기
 
-- [x] 좋아요 내역, 판매/구매 내역
-- [x] 내 정보 보기
-
+      
 <br><br>
 
 ## 🥁 실행 방법
