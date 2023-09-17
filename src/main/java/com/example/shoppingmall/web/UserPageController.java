@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -174,7 +175,6 @@ public class UserPageController {
                 totalPrice += item.getCount() * item.getItem().getPrice();
             }
 
-
             // 전체 결제 처리
             User loginUser = userPageService.findUser(id);
             int loginUserMoney = loginUser.getMoney();
@@ -206,7 +206,6 @@ public class UserPageController {
                     // 결제를 마친 경우 주문내역 담기 및 판매자 정보 담기 && 장바구니 품목 모두 제거
                     cartService.saveHistory(id, item);
                     cartService.deleteCart_item(item.getId());
-
 
                 }
             }
