@@ -39,6 +39,7 @@
 
 ## 🛠 아키텍처
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/3d536912-2221-4f4d-8300-0dcf698c5232)
+![image](https://github.com/kyounggseo/cycle/assets/102573192/b627d3cb-1d68-44dc-b9ff-d484d528564f)
 
 <br><br>
 
