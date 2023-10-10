@@ -33,7 +33,7 @@
 3. Build Tool : Gradle
 4. DB : MariaDB Driver
 5. Deploy : AWS EC2
-6. Etc: Thymeleaf, Spring Security, JPA, AWS S3, Lombok
+6. Etc: Thymeleaf, Spring Security, JPA, AWS S3, Lombok, Oauth2-client
    
 <br><br>
 
