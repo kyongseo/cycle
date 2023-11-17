@@ -64,24 +64,30 @@
 #### 1) 회원가입/로그인
 
 - [x] 회원가입
+
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/2ada9805-e9a3-4b6c-9b66-31cb3e5aca99)
 
 - [x] 로그인
+
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/9476aeca-b5b0-475f-b171-1518fafb2804)
 
 
 #### 2) 판매자 메인 페이지(홈)
 
 - [x] 상품 업로드
+
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/6cd2d7bd-8178-461a-8b1b-feb823c0c472)
 
 - [x] 상품 등록 후 홈
+
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/5031f1d5-7417-45f2-afac-0abe1f5267cf)
 
 - [x] 판매목록
+
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/c5c5707f-6e51-4140-8517-596907029358)
 
 - [x] 판매통계 및 판매량 순위
+
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e)
 
 
@@ -93,20 +99,27 @@
 #### 4) 구매자 메인 페이지(홈)
 
 - [x] 장바구니
+
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c)
 
 - [x] 구매내역
+
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640)
 
 
 #### 5) 구매자 마이 페이지
 - [x] 내정보 수정하기
+
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73)
+
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d)
 
 - [x] 금액 충전하기
+
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/4d42f7ce-aab0-478f-bf7e-7e319a28e0dc)
+
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/4cf108cf-77ce-42fb-9578-7baab0bc0530)
+
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/528ff50c-5049-481b-b801-2b63a99f21e8)
 
       
