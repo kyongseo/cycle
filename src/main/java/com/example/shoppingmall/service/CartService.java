@@ -110,7 +110,6 @@ public class CartService {
         if(historyRepository.findHistoryBySeller(user) == null) {
             History history = new History();
         }
-
         return historyRepository.findHistoryBySeller(user);
     }
 
