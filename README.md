@@ -133,13 +133,15 @@
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/4d42f7ce-aab0-478f-bf7e-7e319a28e0dc)
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/4cf108cf-77ce-42fb-9578-7baab0bc0530) 
 <br>
-구매자의 잔액이 부족할 경우, 카카오 QR결제를 통해 원하는 금액을 선택 후 QR코드로 금액을 충전함.<br>
+구매자의 잔액이 부족할 경우, 카카오 QR결제를 통해 원하는 금액을 선택 후 QR코드로 금액을 충전함.<br> 
+<br> 
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/528ff50c-5049-481b-b801-2b63a99f21e8)<br>
 
       
 <br><br>
 
 ## 🥁 실행 방법
+--> 동영상 첨부
 
 <br><br>
 
@@ -163,7 +165,13 @@
 
 <br><br>
 
-## ☝ 제작 후기
+## ☝ 제작 후기 및 알게된 점(느낀 점)
 - @Transactional 어노테이션에 대해 공부하게 되었습니다.
 - JPA 연관관계에 대해 더욱 잘 알게되는 계기가 되었습니다.
 - 세션과 ROLE을 이용하여 역할별 기능을 구분하는 페이지를 만드는 방법에 대해 알게 되었습니다.
+- Spring Framework의 동작과정을 익혔습니다.
+- MVC구조의 서비스 흐름을 익혔습니다.
+- 백엔드 개발자로서 프론트엔드와의 협업을 경험했습니다.
+- JWT 토큰의 개념과 사용법을 익혔습니다.
+- 백엔드 요청시 필요한 인증/인가 부분을 학습했습니다.
+- Spring MVC에서 제공하는 Interceptor기능으로 요청 유효성을 판단할 수 있었습니다.
