@@ -12,17 +12,18 @@
 
 ## 📆 프로젝트 기간
 
-2023.04.23. ~ ing(2023.06.20)
+2023.05.23. ~ ing(2023.11.17)
 
 | 기간                | 설명                                                         |
 | ------------------- | ------------------------------------------------------------ |
-| 4.23(토)            | 전체 회의 & 준비기간                                          |
-| 4.25(월) ~ 4.30(토) | CRUD 설계                                                     |
-| 4.31(일) ~ 5.03(수) | 메인화면 프론트 구성<br />DB 스키마 구성<br />메인화면 레이아웃 구성 |
-| 5.04(목) ~ 5.15(월) | Spring security로 회원가입, 로그인 구현<br />API 스펙 구성하기<br />DB 스키마 최종 완료<br />판매자 및 구매자를 나눠 페이지 렌더링을 다르게 함 |
-| 5.16(화) ~ 5.25(목) | Entity 클래스 설계 및 JPA로 연관관계 설정<br />마이페이지 제작<br /> 장바구니 구매 기능 구현 |
-| 5.26(금) ~ 6.01(월) | 장바구니 구매 오류 해결<br />구매내역 구현<br /> 판매 글쓰기: Post API 제작<br /> 판매 통계 및 판매 순위 구현 |
-| 6.02(화) ~  | 판매 상세 페이지 구현<br />금액 충전 구현 및 최종 완성<br /> AWS S3에 이미지 저장 기능 구현 |
+| 5.23                | 전체 회의 & 준비기간                                          |
+| 5.25 ~ 5.30         | CRUD 설계                                                     |
+| 5.31 ~ 6.03         | 메인화면 프론트 구성<br />DB 스키마 구성<br />메인화면 레이아웃 구성 |
+| 6.04 ~ 6.15         | Spring security로 회원가입, 로그인 구현<br />API 스펙 구성하기<br />DB 스키마 최종 완료<br />판매자 및 구매자를 나눠 페이지 렌더링을 다르게 함 |
+| 6.16 ~ 6.25         | Entity 클래스 설계 및 JPA로 연관관계 설정<br />마이페이지 제작<br /> 장바구니 구매 기능 구현 |
+| 6.26 ~ 7.01         | 장바구니 구매 오류 해결<br />구매내역 구현<br /> 판매 글쓰기: Post API 제작<br /> 판매 통계 및 판매 순위 구현 |
+| 7.02 ~ 7.10         | 판매 상세 페이지 구현<br />금액 충전 구현 및 최종 완성 <br /> 
+| 7.14 ~              | AWS S3에 이미지 저장 기능 구현 |
 
 <br><br>
 
@@ -33,18 +34,19 @@
 3. Build Tool : Gradle
 4. DB : MariaDB Driver
 5. Deploy : AWS EC2
-6. Etc: Thymeleaf, Spring Security, JPA, AWS S3, Lombok
+6. Etc: Thymeleaf, Spring Security, JPA, AWS S3, Lombok, Oauth2-client
    
 <br><br>
 
 ## 🛠 아키텍처
-![image](https://github.com/kyounggseo/cycle/assets/102573192/3d536912-2221-4f4d-8300-0dcf698c5232)
-![image](https://github.com/kyounggseo/cycle/assets/102573192/b627d3cb-1d68-44dc-b9ff-d484d528564f)
+![image](https://github.com/kyounggseo/cycle/assets/102573192/8b5e8e47-e1f4-4486-a188-551dd4b9d510)
+
 
 <br><br>
 
 ## 💾 DB 스키마 구성
-![image](https://github.com/kyounggseo/cycle/assets/102573192/31076554-7703-4b3a-a61d-87930e68ae8b)
+![image](https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf)
+
 
 <h3>DB 설계</h3>
 
@@ -60,44 +62,63 @@
 ## 🎯 구현 결과
 
 #### 1) 회원가입/로그인
+
 - [x] 회원가입
-![image](https://github.com/kyounggseo/cycle/assets/102573192/6e597f73-b1ea-489a-835e-3967ea6bf6c6)
+
+![image](https://github.com/kyounggseo/cycle/assets/102573192/2ada9805-e9a3-4b6c-9b66-31cb3e5aca99)
 
 - [x] 로그인
-![image](https://github.com/kyounggseo/cycle/assets/102573192/f4fe0667-b9e7-40d0-99a5-98b6148fa082)
+
+![image](https://github.com/kyounggseo/cycle/assets/102573192/9476aeca-b5b0-475f-b171-1518fafb2804)
+
 
 #### 2) 판매자 메인 페이지(홈)
 
-- [x] 물건 리스트 보기
-![image](https://github.com/kyounggseo/cycle/assets/102573192/6dbbb4da-db64-4100-b849-612c7a177df3)
+- [x] 상품 업로드
 
-- [x] 물건 업로드
-![image](https://github.com/kyounggseo/cycle/assets/102573192/667e9768-33e7-4cbe-bc7e-82efc4493e8f)
-![image](https://github.com/kyounggseo/cycle/assets/102573192/10ef9fd7-48f5-4388-a318-56461ae02f77)
+![image](https://github.com/kyounggseo/cycle/assets/102573192/6cd2d7bd-8178-461a-8b1b-feb823c0c472)
 
-- [x] 물건 상세페이지 보기<br>
+- [x] 상품 등록 후 홈
 
-- 판매목록
-![image](https://github.com/kyounggseo/cycle/assets/102573192/a3c1700b-2682-4c32-85e4-dfec246d796f)
-- 판매통계 및 판매량 순위
-![image](https://github.com/kyounggseo/cycle/assets/102573192/dc945523-3d1a-43b3-9cd4-c717d3d4efee)
+![image](https://github.com/kyounggseo/cycle/assets/102573192/5031f1d5-7417-45f2-afac-0abe1f5267cf)
+
+- [x] 판매목록
+
+![image](https://github.com/kyounggseo/cycle/assets/102573192/c5c5707f-6e51-4140-8517-596907029358)
+
+- [x] 판매통계 및 판매량 순위
+
+![image](https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e)
+
 
 #### 3) 판매자 마이 페이지
 
 - [x] 내 정보 수정하기
-- [x] ???????????????/
+
 
 #### 4) 구매자 메인 페이지(홈)
 
-- [x] 물건 리스트 보기
+- [x] 장바구니
 
-- [x] 물건 업로드
+![image](https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c)
 
-- [x] 물건 상세페이지 보기
+- [x] 구매내역
+
+![image](https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640)
+
 
 #### 5) 구매자 마이 페이지
 - [x] 내정보 수정하기
+
+![image](https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73)
+
+![image](https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d)
+
 - [x] 금액 충전하기
+
+![image](https://github.com/kyounggseo/cycle/assets/102573192/4d42f7ce-aab0-478f-bf7e-7e319a28e0dc) ![image](https://github.com/kyounggseo/cycle/assets/102573192/4cf108cf-77ce-42fb-9578-7baab0bc0530)
+
+![image](https://github.com/kyounggseo/cycle/assets/102573192/528ff50c-5049-481b-b801-2b63a99f21e8)
 
       
 <br><br>
