@@ -1,6 +1,9 @@
 # 📢 cycle: Springboot와 AWS를 활용한 중고거래 사이트
 
 <br><br>
+## 🖊️ 프로젝트 기획 배경(목적)
+중고 거래 서비스 (ex 당근마켓) 를 구현해봄으로써 백엔드 구현에 필요한 기술들(스프링 프레임워크, 데이터베이스, 테스트, 형상관리) 에 익숙해지고 새로운 기술 스택을 경험해보고자 기획하였습니다.
+<br><br>
 
 ## 🖊️ 프로젝트 설명
 - 스프링부트를 이용하여 만든 쇼핑몰입니다.
@@ -41,12 +44,14 @@
 ## 🛠 아키텍처
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/8b5e8e47-e1f4-4486-a188-551dd4b9d510)
 
-
 <br><br>
+
+<!-- ## 🛠 ERD
+![image](https://github.com/kyounggseo/cycle/assets/102573192/3c9aa412-eed2-4727-88b4-784dfdb40b18)
+<br><br> -->
 
 ## 💾 DB 스키마 구성
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf)
-
 
 <h3>DB 설계</h3>
 
@@ -59,66 +64,77 @@
   
 <br><br>
 
-## 🎯 구현 결과
+## 🎯 구현 결과<br>
 
-#### 1) 회원가입/로그인
+#### 1) 회원가입/로그인<br>
 
-- [x] 회원가입
+- [x] 회원가입<br>
 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/2ada9805-e9a3-4b6c-9b66-31cb3e5aca99)
+![image](https://github.com/kyounggseo/cycle/assets/102573192/2ada9805-e9a3-4b6c-9b66-31cb3e5aca99)<br>
+회원가입시 닉네임, 비밀번호, 전화번호, 주소, 이메일를 입력함.<br>
 
-- [x] 로그인
+- [x] 로그인<br>
 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/9476aeca-b5b0-475f-b171-1518fafb2804)
+![image](https://github.com/kyounggseo/cycle/assets/102573192/9476aeca-b5b0-475f-b171-1518fafb2804)<br>
+회원가입 여부를 체크함.<br>
+비밀번호 일치 여부를 체크함.<br>
+보안을 고려하여 JWT(access token, refresh token) 방식을 통해 로그인 인증.<br>
+<br>
 
+#### 2) 판매자 메인 페이지(홈)<br>
 
-#### 2) 판매자 메인 페이지(홈)
+- [x] 상품 업로드<br>
 
-- [x] 상품 업로드
+![image](https://github.com/kyounggseo/cycle/assets/102573192/6cd2d7bd-8178-461a-8b1b-feb823c0c472)<br>
 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/6cd2d7bd-8178-461a-8b1b-feb823c0c472)
+- [x] 상품 등록 후 홈<br>
 
-- [x] 상품 등록 후 홈
+![image](https://github.com/kyounggseo/cycle/assets/102573192/5031f1d5-7417-45f2-afac-0abe1f5267cf)<br>
 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/5031f1d5-7417-45f2-afac-0abe1f5267cf)
+- [x] 판매목록<br>
 
-- [x] 판매목록
+![image](https://github.com/kyounggseo/cycle/assets/102573192/c5c5707f-6e51-4140-8517-596907029358)<br>
 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/c5c5707f-6e51-4140-8517-596907029358)
+- [x] 판매통계 및 판매량 순위<br>
 
-- [x] 판매통계 및 판매량 순위
+![image](https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e)<br>
 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e)
+<br>
 
+#### 3) 판매자 마이 페이지 <br>
 
-#### 3) 판매자 마이 페이지
+- [x] 내 정보 수정하기<br>
+![image](https://github.com/kyounggseo/cycle/assets/102573192/2c01bb40-ffeb-4841-9b52-b4d2be6a6eae)<br>
 
-- [x] 내 정보 수정하기
+판매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
+<br>
+#### 4) 구매자 메인 페이지(홈)<br>
 
+- [x] 장바구니<br>
 
-#### 4) 구매자 메인 페이지(홈)
+![image](https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c) <br>
 
-- [x] 장바구니
+- [x] 구매내역<br>
 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c)
+![image](https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640)<br>
 
-- [x] 구매내역
+<br>
 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640)
+#### 5) 구매자 마이 페이지 <br>
+- [x] 내정보 수정하기<br>
 
+![image](https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73)<br>
 
-#### 5) 구매자 마이 페이지
-- [x] 내정보 수정하기
+![image](https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d)<br>
+구매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
+<br>
+- [x] 금액 충전하기 <br>
 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73)
-
-![image](https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d)
-
-- [x] 금액 충전하기
-
-![image](https://github.com/kyounggseo/cycle/assets/102573192/4d42f7ce-aab0-478f-bf7e-7e319a28e0dc) ![image](https://github.com/kyounggseo/cycle/assets/102573192/4cf108cf-77ce-42fb-9578-7baab0bc0530)
-
-![image](https://github.com/kyounggseo/cycle/assets/102573192/528ff50c-5049-481b-b801-2b63a99f21e8)
+![image](https://github.com/kyounggseo/cycle/assets/102573192/4d42f7ce-aab0-478f-bf7e-7e319a28e0dc)
+![image](https://github.com/kyounggseo/cycle/assets/102573192/4cf108cf-77ce-42fb-9578-7baab0bc0530) 
+<br>
+구매자의 잔액이 부족할 경우, 카카오 QR결제를 통해 원하는 금액을 선택 후 QR코드로 금액을 충전함.<br>
+![image](https://github.com/kyounggseo/cycle/assets/102573192/528ff50c-5049-481b-b801-2b63a99f21e8)<br>
 
       
 <br><br>
