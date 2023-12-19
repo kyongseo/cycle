@@ -140,6 +140,7 @@
                                 <li>잘못 담은 물건이 있는지 확인해주세요.</li>
                             </ul>
                             <button type="submit" class="w-100 btn btn-lg btn-outline-primary">구매하기</button>
+                            <a th:href="@{/user/{id}/charge(id=${user.id})}" class="w-100 btn btn-lg btn-outline-primary">금액충전</a>
                         </form>
                     </div>
                 </div>

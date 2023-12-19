@@ -109,16 +109,21 @@
                                 <span th:text="${user.role}">user role</span>
                             </div>
                             <div class="fs-5 mb-5">
+                                <li>이메일 </li>
                                 <span th:text="${user.email}">user email</span>
                             </div>
                             <div class="fs-5 mb-5">
+                                <li>주소 </li>
                                 <span th:text="${user.address}">user address</span>
                             </div>
                             <div class="fs-5 mb-5">
+                                <li>연락처 </li>
                                 <span th:text="${user.phone}">user phone</span>
                             </div>
                             <div class="fs-5 mb-5">
-                                <span th:text="${user.money}">user Money</span>
+                                <li>현재잔액 </li>
+                                <span th:text="|${user.money} 원|">user Money</span>
+                                <!-- th:text="|현재잔액 : ${user.getMoney()} ₩|" -->
                             </div>
                             <p></p>
                             <p></p>

@@ -45,7 +45,7 @@
                 <a class="btn btn-outline-dark" th:href="@{/user/{id}(id=${user.getId()})}" th:text="|${user.getName()}님 환영합니다.|">
                     ~~님 환영
                 </a>
-                <a class="btn btn-outline-dark" th:href="@{/seller/{id}(id=${user.getId()})}" th:text="|현재잔액 : ${user.getMoney()} ₩|">
+                <a class="btn btn-outline-dark" th:href="@{/seller/{id}(id=${user.getId()})}" th:text="|판매잔액 ${user.getMoney()} ₩|">
                     현재잔액 : 10000 ₩
                 </a>
                 <a class="btn btn-outline-dark" th:href="@{/logout}">
@@ -79,12 +79,15 @@
                                 <span th:text="${user.role}">user role</span>
                             </div>
                             <div class="fs-5 mb-5">
+                                <li>이메일 </li>
                                 <span th:text="${user.email}">user email</span>
                             </div>
                             <div class="fs-5 mb-5">
+                                <li>주소 </li>
                                 <span th:text="${user.address}">user address</span>
                             </div>
                             <div class="fs-5 mb-5">
+                                <li>연락처 </li>
                                 <span th:text="${user.phone}">user phone</span>
                             </div>
                             <p></p>

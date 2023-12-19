@@ -48,7 +48,7 @@
                     ~~님 환영
                 </a>
 
-                <a class="btn btn-outline-dark" th:href="@{/seller/{id}(id=${seller.getId()})}" th:text="|현재잔액: ${seller.getMoney()} ₩|">
+                <a class="btn btn-outline-dark" th:href="@{/seller/{id}(id=${seller.getId()})}" th:text="|판매잔액 ${seller.getMoney()} ₩|">
                     현재잔액 : 10000 ₩
                 </a>
                 <a class="btn btn-outline-dark" th:href="@{/logout}">
@@ -83,8 +83,6 @@
                 </ul>
             </div>
         </nav>
-
-
 
 
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
@@ -141,7 +139,7 @@
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li>판매자님의 판매 대금입니다!</li>
                             </ul>
-                            <button type="submit" class="w-100 btn btn-lg btn-outline-primary">Wow</button>
+                            <button type="submit" class="w-100 btn btn-lg btn-outline-primary">송금하기</button>
                         </div>
                     </div>
                 </div>
