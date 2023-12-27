@@ -42,12 +42,14 @@ public class User {
     @OneToMany(mappedBy = "user")
     private List<Item> items = new ArrayList<>(); // item의 판매자와 연결
 
+    // 구매자의 주문
     @OneToMany(mappedBy = "user")
     private List<History> userHistory = new ArrayList<>();
 
     @OneToMany(mappedBy = "seller")
     private List<History> sellerHistory = new ArrayList<>();
 
+    // 구매자의 장바구니
     @OneToOne(mappedBy = "user")
     private Cart cart;
 

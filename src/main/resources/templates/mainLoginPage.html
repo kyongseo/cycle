@@ -48,8 +48,8 @@
                 <a class="btn btn-outline-dark" th:href="@{/user/{id}(id=${user.getId()})}" th:text="|${user.getName()}님 환영합니다.|" sec:authorize="isAuthenticated()">
                     ~~님 환영
                 </a>
-                <a class="btn btn-outline-dark" th:href="@{/user/{id}(id=${user.getId()})}" th:text="|현재잔액 : ${user.getMoney()} ₩|" sec:authorize="isAuthenticated()">
-                    현재잔액 : 10000 ₩
+                <a class="btn btn-outline-dark" href="#" th:text="|현재잔액 : ${user.getMoney()} ₩|" sec:authorize="isAuthenticated()">
+                    현재잔액 : 10000 ₩ <!-- th:href="@{/user/{id}(id=${user.getId()})}" -->
                 </a>
                 <a class="btn btn-outline-dark" th:href="@{/logout}" sec:authorize="isAuthenticated()">
                     로그아웃
