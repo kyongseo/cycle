@@ -27,6 +27,8 @@
 | 09.08 ~ 09.12        | 판매 상세 페이지 구현<br />금액 충전 구현 및 최종 완성 <br /> 
 | 09.13 ~ 09.20        | 리팩토링 및 추가 기능 개선  | <!-- AWS S3에 이미지 저장 기능 구현 -->
 
+##### Notion link  
+###### https://www.notion.so/Cycle-e4e25da4a37b42258fbe5a3676250e5d?pvs=4 
 <br><br>
 
 ## 📍 사용하는 툴
@@ -64,6 +66,8 @@
 - Cart_item
 - Board
 - History
+  
+<br>
 
  **회원과 상품**
 
@@ -123,9 +127,9 @@
 - [x] 로그인<br>
 
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/9476aeca-b5b0-475f-b171-1518fafb2804)<br>
-회원가입 여부를 체크함.<br>
-비밀번호 일치 여부를 체크함.<br>
-보안을 고려하여 JWT(access token, refresh token) 방식을 통해 로그인 인증.<br>
+- 회원가입 여부를 체크함.<br>
+- 비밀번호 일치 여부를 체크함.<br>
+- 보안을 고려하여 JWT(access token, refresh token) 방식을 통해 로그인 인증.<br>
 <br>
 
 #### 2) 판매자 메인 페이지(홈)<br>
@@ -146,6 +150,9 @@
 
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e)<br>
 
+- 판매자는 원하는 상품을 상품명, 수량, 가격, 이미지 등을 입력하여 올릴 수 있음.
+- 현재까지 판매된 판매목록, 통계, 판매량 순위를 볼 수 있음.
+  
 <br>
 
 #### 3) 판매자 마이 페이지 <br>
@@ -153,9 +160,10 @@
 - [x] 내 정보 수정하기<br>
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/2c01bb40-ffeb-4841-9b52-b4d2be6a6eae)<br>
 
-판매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
+- 판매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
 <br>
-#### 4) 구매자 메인 페이지(홈)<br>
+
+#### 4) 구매자 메인 페이지(홈) <br>
 
 - [x] 장바구니<br>
 
@@ -165,6 +173,7 @@
 
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640)<br>
 
+- 구매자는 원하는 상품을 장바구니에 담고 구매할 수 있음.
 <br>
 
 #### 5) 구매자 마이 페이지 <br>
@@ -173,16 +182,15 @@
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73)<br>
 
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d)<br>
-구매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
+- 구매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
 <br>
+
 - [x] 금액 충전하기 <br>
 
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/4d42f7ce-aab0-478f-bf7e-7e319a28e0dc)
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/4cf108cf-77ce-42fb-9578-7baab0bc0530) 
-<br>
-구매자의 잔액이 부족할 경우, 카카오 QR결제를 통해 원하는 금액을 선택 후 QR코드로 금액을 충전함.<br> 
-<br> 
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/528ff50c-5049-481b-b801-2b63a99f21e8)<br>
+- 구매자의 잔액이 부족할 경우, 카카오 QR결제를 통해 원하는 금액을 선택 후 QR코드로 금액을 충전함. <br> 
 
       
 <br><br>
