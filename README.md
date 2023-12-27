@@ -28,7 +28,7 @@
 | 09.13 ~ 09.20        | 리팩토링 및 추가 기능 개선  | <!-- AWS S3에 이미지 저장 기능 구현 -->
 
 ##### Notion link  
-###### https://www.notion.so/Cycle-e4e25da4a37b42258fbe5a3676250e5d?pvs=4 
+###### [https://www.notion.so/Cycle-e4e25da4a37b42258fbe5a3676250e5d?pvs=4 ](https://www.notion.so/Cycle-e4e25da4a37b42258fbe5a3676250e5d?pvs=4)
 <br><br>
 
 ## 📍 사용하는 툴
