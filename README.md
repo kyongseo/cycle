@@ -142,6 +142,7 @@
 - [x] 회원가입<br>
 - 회원가입시 닉네임, 비밀번호, 전화번호, 주소, 이메일를 입력함.<br>
  <img src="https://github.com/kyounggseo/cycle/assets/102573192/cc6f7c9d-8231-4237-ae83-83076b5ef352" width="40%" height="40%"> 
+<br/>
 
 - [x] 로그인<br>
 - 회원가입 여부를 체크함.<br>
@@ -154,6 +155,7 @@
 
 - [x] 상품 등록 <br>
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/1835e715-e601-40a1-b241-452e41149789" width="40%" height="40%">
+<br/>
 
 - [x] 판매목록 및 판매통계, 판매량 순위<br>
 - 판매자는 원하는 상품을 상품명, 수량, 가격, 이미지 등을 입력하여 올릴 수 있음.
@@ -174,39 +176,32 @@
 - [x] 장바구니 및 구매내역<br>
 - 구매자는 원하는 상품을 장바구니에 담고 구매할 수 있음.
 
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640" width="40%" height="70%"> <br/>
-
-<br>
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640" width="40%" height="70%"> 
+<br/>
 
 #### 5) 구매자 마이 페이지 <br>
 - [x] 내정보 수정하기<br>
 - 구매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
 
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d" width="40%" height="70%"> <br/>
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d" width="40%" height="70%"> 
+<br/>
 
 <!-- 
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73)<br>
-
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d)<br> -->
-
-<br>
 
 - [x] 금액 충전하기 <br>
 - 구매자의 잔액이 부족할 경우, 카카오 QR결제를 통해 원하는 금액을 선택 후 QR코드로 금액을 충전함. <br> 
 <!-- <img src="https://github.com/kyounggseo/cycle/assets/102573192/4d42f7ce-aab0-478f-bf7e-7e319a28e0dc" width="50%" height="0%"> 
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/4cf108cf-77ce-42fb-9578-7baab0bc0530" width="30%" height="10%"> 
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/528ff50c-5049-481b-b801-2b63a99f21e8" width="80%" height="0%"> -->
-![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44](https://github.com/kyounggseo/cycle/assets/102573192/13f60795-ce5d-42e7-9491-c6749f1392a2)
-
-
-
-      
-<br><br>
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/c40deace-9fb4-45c2-a1be-5a49763e8e1b" width="40%" height="300%"> 
+<br/>
 
 ## 🥁 실행 방법
 [Notion link](https://www.notion.so/Cycle-e4e25da4a37b42258fbe5a3676250e5d?pvs=4)
 
-<br><br>
+<br/>
 
 ## 🔖 노하우 공유
 
