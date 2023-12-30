@@ -142,59 +142,32 @@
 - [x] 회원가입<br>
 - 회원가입시 닉네임, 비밀번호, 전화번호, 주소, 이메일를 입력함.<br>
  <img src="https://github.com/kyounggseo/cycle/assets/102573192/cc6f7c9d-8231-4237-ae83-83076b5ef352" width="40%" height="40%"> 
- <!--  ![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44](https://github.com/kyounggseo/cycle/assets/102573192/53753525-23a0-4b6d-bf82-032ce624ebaf)
-   ![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44](https://github.com/kyounggseo/cycle/assets/102573192/53753525-23a0-4b6d-bf82-032ce624ebaf) 
-  <img src="https://github.com/kyounggseo/cycle/assets/102573192/53753525-23a0-4b6d-bf82-032ce624ebaf" width="80%" height="70%"> 
-<!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/2ada9805-e9a3-4b6c-9b66-31cb3e5aca99)<br> 
-![제목 없는 디자인](https://github.com/kyounggseo/cycle/assets/102573192/cc6f7c9d-8231-4237-ae83-83076b5ef352) -->
 
 - [x] 로그인<br>
 - 회원가입 여부를 체크함.<br>
 - 비밀번호 일치 여부를 체크함.<br>
 - 보안을 고려하여 JWT(access token, refresh token) 방식을 통해 로그인 인증.<br>
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/c08ad3e6-fb47-401b-9d8b-33cc23c60e7a" width="30%" height="40%">
-<!-- ![제목 없는 디자인 (1)]()
-![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44 (1)](https://github.com/kyounggseo/cycle/assets/102573192/e7a72618-b7c0-4d5d-918f-eb6eefd1ba2e)
-![제목 없는 디자인]()
-
- ![image](https://github.com/kyounggseo/cycle/assets/102573192/9476aeca-b5b0-475f-b171-1518fafb2804)<br> -->
-
-<br>
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/c08ad3e6-fb47-401b-9d8b-33cc23c60e7a" width="40%" height="40%">
+<br/>
 
 #### 2) 판매자 메인 페이지(홈)<br>
 
-- [x] 상품 등록<br>
-![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44](https://github.com/kyounggseo/cycle/assets/102573192/33c911da-55c9-4d20-a437-55441d441670)
-
-<!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/6cd2d7bd-8178-461a-8b1b-feb823c0c472)<br> 
-
-- [x] 상품 등록 후 홈<br>
-
-![image](https://github.com/kyounggseo/cycle/assets/102573192/5031f1d5-7417-45f2-afac-0abe1f5267cf)<br>
-
-- [x] 판매목록<br>
-
-![image](https://github.com/kyounggseo/cycle/assets/102573192/c5c5707f-6e51-4140-8517-596907029358)<br>
-
-- [x] 판매통계 및 판매량 순위<br>
-
-![image](https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e)<br>  -->
+- [x] 상품 등록 <br>
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/1835e715-e601-40a1-b241-452e41149789" width="40%" height="40%">
 
 - [x] 판매목록 및 판매통계, 판매량 순위<br>
 - 판매자는 원하는 상품을 상품명, 수량, 가격, 이미지 등을 입력하여 올릴 수 있음.
 - 현재까지 판매된 판매목록, 통계, 판매량 순위를 볼 수 있음.
   
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/c5c5707f-6e51-4140-8517-596907029358" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e" width="40%" height="70%"> <br/>
-
-  
-<br>
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/c5c5707f-6e51-4140-8517-596907029358" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e" width="40%" height="70%">
+<br/>
 
 #### 3) 판매자 마이 페이지 <br>
 
 - [x] 내 정보 수정하기<br>
 - 판매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/2c01bb40-ffeb-4841-9b52-b4d2be6a6eae" width="40%" height="70%">
-<br>
+<br/>
 
 #### 4) 구매자 메인 페이지(홈) <br>
 
@@ -204,13 +177,6 @@
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640" width="40%" height="70%"> <br/>
 
 <br>
-
-<!-- - [x] 장바구니<br>
-![image](https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c) <br>
-- [x] 구매내역<br>
-![image](https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640)<br> -->
-
-
 
 #### 5) 구매자 마이 페이지 <br>
 - [x] 내정보 수정하기<br>
