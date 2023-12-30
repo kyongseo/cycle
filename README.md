@@ -140,8 +140,9 @@
 #### 2) 판매자 메인 페이지(홈)<br>
 
 - [x] 상품 업로드<br>
+![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44](https://github.com/kyounggseo/cycle/assets/102573192/33c911da-55c9-4d20-a437-55441d441670)
 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/6cd2d7bd-8178-461a-8b1b-feb823c0c472)<br>
+<!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/6cd2d7bd-8178-461a-8b1b-feb823c0c472)<br> -->
 
 - [x] 상품 등록 후 홈<br>
 
