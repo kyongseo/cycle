@@ -42,9 +42,9 @@
 <br><br>
 
 ## 🛠 아키텍처
-<!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/8b5e8e47-e1f4-4486-a188-551dd4b9d510) -->
-![image](https://github.com/kyounggseo/cycle/assets/102573192/4b9c51ba-b8f1-4b53-b991-9b2bfe0d2a05)<br/>
-
+<!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/8b5e8e47-e1f4-4486-a188-551dd4b9d510) 
+![image](https://github.com/kyounggseo/cycle/assets/102573192/4b9c51ba-b8f1-4b53-b991-9b2bfe0d2a05)<br/> -->
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/4b9c51ba-b8f1-4b53-b991-9b2bfe0d2a05" width="70%" height="70%">
 
 <br><br>
 
@@ -55,8 +55,8 @@
 -->
 
 ## 💾 DB 스키마 구성
-![image](https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf)
-
+<!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf) -->
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf" width="70%" height="20%">
 <h3>DB 설계</h3>
 
 - User
