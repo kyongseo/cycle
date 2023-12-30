@@ -59,82 +59,102 @@
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf" width="70%" height="20%">
 <h3>DB 설계</h3>
 
-- User
-- Item
-- Cart
-- Cart_item
-- Board
-- History
-  
-<br>
+- User, Item, Cart, Cart_item, Board, History
+<br/>
 
- **회원과 상품**
+<details>
+<summary>회원과 상품</summary>
+<div markdown="1">
 
-상품은 1명의 회원이 등록할 수 있고, 상품은 작성자(회원) 정보를 가지고 있다. <br>
+- 상품은 1명의 회원이 등록할 수 있고, 상품은 작성자(회원) 정보를 가지고 있다. <br>
 
-- 한 명의 회원은 여러 상품을 등록할 수 있다.<br>
-**⇒ User(1) - Item(N)**
+   - 한 명의 회원은 여러 상품을 등록할 수 있다.<br>
+   **⇒ User(1) - Item(N)**
 
-**상품과 상품이미지**
+</div>
+</details>
 
-이미지는 자신이 어떤 상품에 해당되는지에 대한 정보를 가지고 있다. 
+<details>
+<summary>상품과 상품이미지</summary>
+<div markdown="1">
 
-- 한 개의 상품은 여러 이미지를 가질 수 있다. <br>
-**⇒ Item(1) - ItemPhoto(N)**
+- 이미지는 자신이 어떤 상품에 해당되는지에 대한 정보를 가지고 있다. 
 
-**장바구니**
+   - 한 개의 상품은 여러 이미지를 가질 수 있다. <br>
+   **⇒ Item(1) - ItemPhoto(N)**
+</div>
+</details>
 
-어떤 회원의 장바구니인지, 담긴 상품들은 무엇인지에 대한 정보를 가지고 있다.
+<details>
+<summary>장바구니</summary>
+<div markdown="1">
 
-- 한 명의 회원은 장바구니에 여러 상품을 담을 수 있다. 
-=CartItem에 CartId를 검색하면 N개의 정보가 출력된다. <br>
-**⇒ User(1) - CartId(N)**
-- 한 개의 상품은 여러 회원의 장바구니에 담길 수 있다. 
-= CartItem에 itemId를 검색하면 N개의 정보가 출력된다. <br>
-**⇒ CartItem(N) - Item(1)**
+- 어떤 회원의 장바구니인지, 담긴 상품들은 무엇인지에 대한 정보를 가지고 있다.
 
-**주문**
+   - 한 명의 회원은 장바구니에 여러 상품을 담을 수 있다. 
+   = CartItem에 CartId를 검색하면 N개의 정보가 출력된다. <br>
+   **⇒ User(1) - CartId(N)**
+   - 한 개의 상품은 여러 회원의 장바구니에 담길 수 있다. 
+   = CartItem에 itemId를 검색하면 N개의 정보가 출력된다. <br>
+   **⇒ CartItem(N) - Item(1)**
+</div>
+</details>
 
-어떤 회원의 주문인지, 담긴 상품들은 무엇인지에 대한 정보를 가지고 있다. (주문상품에서 해당 역할을 수행한다.)
+<details>
+<summary>주문</summary>
+<div markdown="1">
 
-- 한 명의 회원은 여러 주문을 요청할 수 있다.
-= Cart_Item에 CartId를 검색하면 N개의 정보가 출력된다. <br>
-**⇒ User(1) - Cart(N)**
-- 한 개의 주문은 여러 상품들을 담을 수 있다.
- = Cart에 UserId를 검색하면 여러 주문(N) * 여러 상품(M)개의 정보가 출력된다. <br>
-⇒ 다대다 매핑이니 주문과 상품 사이에 **주문상품** 테이블을 생성한다.
+- 어떤 회원의 주문인지, 담긴 상품들은 무엇인지에 대한 정보를 가지고 있다. (주문상품에서 해당 역할을 수행한다.)
 
-**주문상품**
+   - 한 명의 회원은 여러 주문을 요청할 수 있다.
+   = Cart_Item에 CartId를 검색하면 N개의 정보가 출력된다. <br>
+   **⇒ User(1) - Cart(N)**
+   - 한 개의 주문은 여러 상품들을 담을 수 있다.
+    = Cart에 UserId를 검색하면 여러 주문(N) * 여러 상품(M)개의 정보가 출력된다. <br>
+   ⇒ 다대다 매핑이니 주문과 상품 사이에 **주문상품** 테이블을 생성한다.
+</div>
+</details>
 
-어떤 주문에 어떤 상품들이 담겨있는지에 대한 정보를 가지고 있다.
+<details>
+<summary>주문상품</summary>
+<div markdown="1">
 
-- 한 개의 주문은 여러 상품들을 담을 수 있다.
-= Cart_Item에 CartId를 검색하면 N개의 정보가 출력 된다.<br>
-**⇒ Cart_Item(1) - Cart_Id(N)**
-- 한 개의 상품은 여러 주문에 담길 수 있다.
-= Cart_Item에 itemId를 검색하면 N개의 정보가 출력 된다. <br>
-**⇒ ItemId(N) - Cart_Item(1)** 
-<br><br>
+- 어떤 주문에 어떤 상품들이 담겨있는지에 대한 정보를 가지고 있다.
+
+   - 한 개의 주문은 여러 상품들을 담을 수 있다.
+   = Cart_Item에 CartId를 검색하면 N개의 정보가 출력 된다.<br>
+   **⇒ Cart_Item(1) - Cart_Id(N)**
+   - 한 개의 상품은 여러 주문에 담길 수 있다.
+   = Cart_Item에 itemId를 검색하면 N개의 정보가 출력 된다. <br>
+   **⇒ ItemId(N) - Cart_Item(1)** 
+- 상품은 1명의 회원이 등록할 수 있고, 상품은 작성자(회원) 정보를 가지고 있다. <br>
+   - 한 명의 회원은 여러 상품을 등록할 수 있다.<br>
+   **⇒ User(1) - Item(N)**
+</div>
+</details>
+
+<br/><br/>
 
 ## 🎯 구현 결과 <br>
 
 #### 1) 회원가입/로그인<br>
 
 - [x] 회원가입<br>
-
+- 회원가입시 닉네임, 비밀번호, 전화번호, 주소, 이메일를 입력함.<br>
    ![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44](https://github.com/kyounggseo/cycle/assets/102573192/53753525-23a0-4b6d-bf82-032ce624ebaf)
 <!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/2ada9805-e9a3-4b6c-9b66-31cb3e5aca99)<br> -->
-회원가입시 닉네임, 비밀번호, 전화번호, 주소, 이메일를 입력함.<br>
+
 
 
 
 - [x] 로그인<br>
-![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44 (1)](https://github.com/kyounggseo/cycle/assets/102573192/e7a72618-b7c0-4d5d-918f-eb6eefd1ba2e)
-
-<!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/9476aeca-b5b0-475f-b171-1518fafb2804)<br> -->
 - 회원가입 여부를 체크함.<br>
 - 비밀번호 일치 여부를 체크함.<br>
 - 보안을 고려하여 JWT(access token, refresh token) 방식을 통해 로그인 인증.<br>
+![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44 (1)](https://github.com/kyounggseo/cycle/assets/102573192/e7a72618-b7c0-4d5d-918f-eb6eefd1ba2e)
+
+<!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/9476aeca-b5b0-475f-b171-1518fafb2804)<br> -->
+
 <br>
 
 #### 2) 판매자 메인 페이지(홈)<br>
@@ -157,27 +177,30 @@
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e)<br>  -->
 
 - [x] 판매목록 및 판매통계, 판매량 순위<br>
-
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/c5c5707f-6e51-4140-8517-596907029358" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e" width="40%" height="70%"> <br/>
 - 판매자는 원하는 상품을 상품명, 수량, 가격, 이미지 등을 입력하여 올릴 수 있음.
 - 현재까지 판매된 판매목록, 통계, 판매량 순위를 볼 수 있음.
+  
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/c5c5707f-6e51-4140-8517-596907029358" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e" width="40%" height="70%"> <br/>
+
   
 <br>
 
 #### 3) 판매자 마이 페이지 <br>
 
 - [x] 내 정보 수정하기<br>
+- 판매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/2c01bb40-ffeb-4841-9b52-b4d2be6a6eae)<br>
 
-- 판매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
+
 <br>
 
 #### 4) 구매자 메인 페이지(홈) <br>
 
 - [x] 장바구니 및 구매내역<br>
+- 구매자는 원하는 상품을 장바구니에 담고 구매할 수 있음.
 
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640" width="40%" height="70%"> <br/>
-- 구매자는 원하는 상품을 장바구니에 담고 구매할 수 있음.
+
 <br>
 
 <!-- - [x] 장바구니<br>
@@ -189,6 +212,7 @@
 
 #### 5) 구매자 마이 페이지 <br>
 - [x] 내정보 수정하기<br>
+- 구매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
 
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d" width="40%" height="70%"> <br/>
 
@@ -196,16 +220,17 @@
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73)<br>
 
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d)<br> -->
-- 구매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
+
 <br>
 
 - [x] 금액 충전하기 <br>
+- 구매자의 잔액이 부족할 경우, 카카오 QR결제를 통해 원하는 금액을 선택 후 QR코드로 금액을 충전함. <br> 
 <!-- <img src="https://github.com/kyounggseo/cycle/assets/102573192/4d42f7ce-aab0-478f-bf7e-7e319a28e0dc" width="50%" height="0%"> 
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/4cf108cf-77ce-42fb-9578-7baab0bc0530" width="30%" height="10%"> 
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/528ff50c-5049-481b-b801-2b63a99f21e8" width="80%" height="0%"> -->
 ![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44](https://github.com/kyounggseo/cycle/assets/102573192/13f60795-ce5d-42e7-9491-c6749f1392a2)
 
-- 구매자의 잔액이 부족할 경우, 카카오 QR결제를 통해 원하는 금액을 선택 후 QR코드로 금액을 충전함. <br> 
+
 
       
 <br><br>
