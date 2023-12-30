@@ -142,10 +142,9 @@
 - [x] 회원가입<br>
 - 회원가입시 닉네임, 비밀번호, 전화번호, 주소, 이메일를 입력함.<br>
    ![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44](https://github.com/kyounggseo/cycle/assets/102573192/53753525-23a0-4b6d-bf82-032ce624ebaf)
+  <!-- ![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44](https://github.com/kyounggseo/cycle/assets/102573192/53753525-23a0-4b6d-bf82-032ce624ebaf) -->
+  <img src="https://github.com/kyounggseo/cycle/assets/102573192/53753525-23a0-4b6d-bf82-032ce624ebaf" width="80%" height="70%"> 
 <!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/2ada9805-e9a3-4b6c-9b66-31cb3e5aca99)<br> -->
-
-
-
 
 - [x] 로그인<br>
 - 회원가입 여부를 체크함.<br>
