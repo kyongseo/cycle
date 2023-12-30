@@ -27,7 +27,7 @@
 | 09.08 ~ 09.12        | 판매 상세 페이지 구현<br />금액 충전 구현 및 최종 완성 <br /> 
 | 09.13 ~ 09.20        | 리팩토링 및 추가 기능 개선  | <!-- AWS S3에 이미지 저장 기능 구현 -->
 
-[Notion link](https://www.notion.so/Cycle-e4e25da4a37b42258fbe5a3676250e5d?pvs=4)
+
 <br><br>
 
 ## 📍 사용하는 툴
@@ -197,7 +197,7 @@
 <br><br>
 
 ## 🥁 실행 방법
---> 동영상 첨부
+[Notion link](https://www.notion.so/Cycle-e4e25da4a37b42258fbe5a3676250e5d?pvs=4)
 
 <br><br>
 
