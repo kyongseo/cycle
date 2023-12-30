@@ -139,10 +139,10 @@
 
 #### 2) 판매자 메인 페이지(홈)<br>
 
-- [x] 상품 업로드<br>
+- [x] 상품 등록<br>
 ![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44](https://github.com/kyounggseo/cycle/assets/102573192/33c911da-55c9-4d20-a437-55441d441670)
 
-<!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/6cd2d7bd-8178-461a-8b1b-feb823c0c472)<br> -->
+<!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/6cd2d7bd-8178-461a-8b1b-feb823c0c472)<br> 
 
 - [x] 상품 등록 후 홈<br>
 
@@ -154,8 +154,11 @@
 
 - [x] 판매통계 및 판매량 순위<br>
 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e)<br>
+![image](https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e)<br>  -->
 
+- [x] 판매목록 및 판매통계, 판매량 순위<br>
+
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/c5c5707f-6e51-4140-8517-596907029358" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e" width="40%" height="70%"> <br/>
 - 판매자는 원하는 상품을 상품명, 수량, 가격, 이미지 등을 입력하여 올릴 수 있음.
 - 현재까지 판매된 판매목록, 통계, 판매량 순위를 볼 수 있음.
   
@@ -171,30 +174,36 @@
 
 #### 4) 구매자 메인 페이지(홈) <br>
 
-- [x] 장바구니<br>
+- [x] 장바구니 및 구매내역<br>
 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c) <br>
-
-- [x] 구매내역<br>
-
-![image](https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640)<br>
-
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640" width="40%" height="70%"> <br/>
 - 구매자는 원하는 상품을 장바구니에 담고 구매할 수 있음.
 <br>
+
+<!-- - [x] 장바구니<br>
+![image](https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c) <br>
+- [x] 구매내역<br>
+![image](https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640)<br> -->
+
+
 
 #### 5) 구매자 마이 페이지 <br>
 - [x] 내정보 수정하기<br>
 
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d" width="40%" height="70%"> <br/>
+
+<!-- 
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73)<br>
 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d)<br>
+![image](https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d)<br> -->
 - 구매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
 <br>
 
 - [x] 금액 충전하기 <br>
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/4d42f7ce-aab0-478f-bf7e-7e319a28e0dc" width="50%" height="0%"> 
+<!-- <img src="https://github.com/kyounggseo/cycle/assets/102573192/4d42f7ce-aab0-478f-bf7e-7e319a28e0dc" width="50%" height="0%"> 
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/4cf108cf-77ce-42fb-9578-7baab0bc0530" width="30%" height="10%"> 
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/528ff50c-5049-481b-b801-2b63a99f21e8" width="80%" height="0%">
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/528ff50c-5049-481b-b801-2b63a99f21e8" width="80%" height="0%"> -->
+![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44](https://github.com/kyounggseo/cycle/assets/102573192/13f60795-ce5d-42e7-9491-c6749f1392a2)
 
 - 구매자의 잔액이 부족할 경우, 카카오 QR결제를 통해 원하는 금액을 선택 후 QR코드로 금액을 충전함. <br> 
 
