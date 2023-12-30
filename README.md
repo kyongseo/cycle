@@ -152,9 +152,10 @@
 - 회원가입 여부를 체크함.<br>
 - 비밀번호 일치 여부를 체크함.<br>
 - 보안을 고려하여 JWT(access token, refresh token) 방식을 통해 로그인 인증.<br>
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/c3571b49-463f-4c4f-ab1a-6c155031863a" width="40%" height="40%">
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/c08ad3e6-fb47-401b-9d8b-33cc23c60e7a" width="30%" height="40%">
 <!-- ![제목 없는 디자인 (1)]()
 ![쇼핑몰 만들기 - 개인 - Microsoft_ Edge 2023-12-27 15-01-44 (1)](https://github.com/kyounggseo/cycle/assets/102573192/e7a72618-b7c0-4d5d-918f-eb6eefd1ba2e)
+![제목 없는 디자인]()
 
  ![image](https://github.com/kyounggseo/cycle/assets/102573192/9476aeca-b5b0-475f-b171-1518fafb2804)<br> -->
 
