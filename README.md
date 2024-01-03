@@ -1,7 +1,7 @@
 # 📢 cycle: Springboot를 활용한 중고거래 사이트
 
 > 전반적인 웹의 기본 소양이 되는 게시판 프로젝트입니다.
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/9e3c34bf-0358-4864-aa95-7fc41f03d3f9" width="70%" height="70%">
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/9e3c34bf-0358-4864-aa95-7fc41f03d3f9" width="60%" height="70%">
 
 ## 목차
 - [들어가며](#들어가며)
@@ -9,11 +9,10 @@
   - [프로젝트 설명](#2-프로젝트-설명)    
   - [프로젝트 기간](#3-프로젝트-기간)     
 
-
 - [구조 및 설계](#구조-및-설계)
   - [사용 기술](#1-사용-기술)
   - [아키텍처](#2-아키텍처)
-  - [DB 설계계](#3-DB-설계)
+  - [DB 설계](#3-DB-설계)
   - [API 설계](#4-API-설계)
 
 - [구현 결과](#구현-결과)
@@ -30,7 +29,6 @@
 ## 들어가며
 ### 1. 프로젝트 기획 배경
 중고 거래 서비스를 구현해봄으로써 판매자와 구매자를 구분하여 유저서비스를 최적화하고 자바 기반 백엔드 역량 향상과 새로운 기술 스택을 경험해보고자 기획하였습니다. 또한 무조건적으로 책과 강의를 따라하여 만드는 것이 아닌 내가 직접 기능에 대한 구현방법을 고민하고, 여러 자료를 찾아보며 적용하는 힘을 키우기 위해 프로젝트를 시작했습니다.
-
 <br><br>
 
 ### 2. 프로젝트 설명
@@ -40,7 +38,6 @@
 - **사용자 -** Security 회원가입 및 로그인, 회원정보 수정, 회원가입시 유효성 검사 및 중복 검사 <!-- OAuth 2.0 구글, 네이버 로그인, -->
 - 로그인 세션을 이용한 ROLE별로 구매자와 판매자 페이지가 렌더링이 되고, 구매자는 장바구니에 물품을 담고 구매하고, 구매자 정보와 판매자 정보가 History Entity에 담기게 되고, 그걸 바탕으로 구매통계와 판매통계를 구현했습니다.
 - 결제 기능 또한 구현 했습니다.
-
 <br><br>
 
 ### 3. 프로젝트 기간
@@ -68,14 +65,12 @@
 4. DB : MariaDB Driver
 <!-- 5. Deploy :  AWS EC2 -->
 5. Etc: Thymeleaf, Spring Security, JPA, Lombok, Oauth2-client, Html/Css, JavaScript, Bootstrap 4.3.1
-   
 <br><br>
 
 ### 2. 아키텍처
 <!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/8b5e8e47-e1f4-4486-a188-551dd4b9d510) 
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/4b9c51ba-b8f1-4b53-b991-9b2bfe0d2a05)<br/> -->
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/4b9c51ba-b8f1-4b53-b991-9b2bfe0d2a05" width="50%" height="70%">
-
 <br><br>
 
 <!-- 
@@ -88,8 +83,8 @@
 
 <!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf) -->
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf" width="50%" height="20%">
-<h3>DB 설계</h3>
 
+<h3>DB 설계</h3>
 - User, Item, Cart, Cart_item, Board, History
 <br/>
 
