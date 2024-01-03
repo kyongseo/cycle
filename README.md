@@ -63,8 +63,8 @@
 2. Spring Boot : 2.7.2
 3. Build Tool : Gradle 7.2
 4. DB : MariaDB Driver
-<!-- 5. Deploy :  AWS EC2 -->
 5. Etc: Thymeleaf, Spring Security, JPA, Lombok, Oauth2-client, Html/Css, JavaScript, Bootstrap 4.3.1
+<!-- 5. Deploy :  AWS EC2 -->
 <br><br>
 
 ### 2. 아키텍처
@@ -267,7 +267,7 @@
 - JWT 토큰의 개념과 사용법을 익혔습니다.
 - 백엔드 요청시 필요한 인증/인가 부분을 학습했습니다.
 - Spring MVC에서 제공하는 Interceptor기능으로 요청 유효성을 판단할 수 있었습니다.
-
+<br><br>
 
 ### 2. 후기
 혼자 독학하며 처음 만들어본 프로젝트이기 때문에,   
