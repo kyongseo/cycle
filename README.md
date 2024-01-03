@@ -85,7 +85,9 @@
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf" width="50%" height="20%">
 
 <h3>DB 설계</h3>
+
 - User, Item, Cart, Cart_item, Board, History
+  
 <br/>
 
 <details>
