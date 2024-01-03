@@ -1,7 +1,7 @@
 # 📢 cycle: Springboot를 활용한 중고거래 사이트
 
 > 전반적인 웹의 기본 소양이 되는 게시판 프로젝트입니다.
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/9e3c34bf-0358-4864-aa95-7fc41f03d3f9" width="60%" height="70%">
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/9e3c34bf-0358-4864-aa95-7fc41f03d3f9" width="40%" height="70%">
 
 ## 목차
 - [들어가며](#들어가며)
