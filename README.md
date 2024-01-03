@@ -13,7 +13,6 @@
   - [사용 기술](#1-사용-기술)
   - [아키텍처](#2-아키텍처)
   - [DB 설계](#3-DB-설계)
-  - [API 설계](#4-API-설계)
 
 - [구현 결과](#구현-결과)
   - [notion](#notion-링크)
@@ -63,7 +62,7 @@
 2. Spring Boot : 2.7.2
 3. Build Tool : Gradle 7.2
 4. DB : MariaDB Driver
-5. Etc: Thymeleaf, Spring Security, JPA, Lombok, Oauth2-client, Html/Css, JavaScript, Bootstrap 4.3.1
+5. Etc : Thymeleaf, Spring Security, JPA, Lombok, Oauth2-client, Html/Css, JavaScript, Bootstrap 4.3.1
 <!-- 5. Deploy :  AWS EC2 -->
 <br><br>
 
@@ -160,10 +159,6 @@
    **⇒ User(1) - Item(N)**
 </div>
 </details>
-
-<br/><br/>
-
-### 4. API 설계
 
 <br/><br/>
 
