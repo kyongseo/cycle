@@ -1,7 +1,7 @@
 # 📢 cycle: Springboot를 활용한 중고거래 사이트
 
 > 전반적인 웹의 기본 소양이 되는 게시판 프로젝트입니다.
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/9e3c34bf-0358-4864-aa95-7fc41f03d3f9" width="40%" height="70%">
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/9e3c34bf-0358-4864-aa95-7fc41f03d3f9" width="600" height="400">
 
 ## 목차
 - [들어가며](#들어가며)
@@ -69,7 +69,7 @@
 ### 2. 아키텍처
 <!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/8b5e8e47-e1f4-4486-a188-551dd4b9d510) 
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/4b9c51ba-b8f1-4b53-b991-9b2bfe0d2a05)<br/> -->
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/4b9c51ba-b8f1-4b53-b991-9b2bfe0d2a05" width="50%" height="70%">
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/4b9c51ba-b8f1-4b53-b991-9b2bfe0d2a05" width="600" height="400">
 <br><br>
 
 <!-- 
@@ -81,7 +81,7 @@
 ### 3. DB 설계
 
 <!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf) -->
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf" width="50%" height="20%">
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf" width="600" height="400">
 
 <h3>DB 설계</h3>
 
@@ -168,34 +168,34 @@
 
 - [x] 회원가입<br>
 - 회원가입시 닉네임, 비밀번호, 전화번호, 주소, 이메일를 입력함.<br>
- <img src="https://github.com/kyounggseo/cycle/assets/102573192/cc6f7c9d-8231-4237-ae83-83076b5ef352" width="40%" height="40%"> 
+ <img src="https://github.com/kyounggseo/cycle/assets/102573192/cc6f7c9d-8231-4237-ae83-83076b5ef352" width="600" height="400"> 
 <br/>
 
 - [x] 로그인<br>
 - 회원가입 여부를 체크함.<br>
 - 비밀번호 일치 여부를 체크함.<br>
 - 보안을 고려하여 JWT(access token, refresh token) 방식을 통해 로그인 인증.<br>
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/c08ad3e6-fb47-401b-9d8b-33cc23c60e7a" width="40%" height="40%">
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/c08ad3e6-fb47-401b-9d8b-33cc23c60e7a" width="600" height="400">
 <br/>
 
 #### 2) 판매자 메인 페이지(홈)<br>
 
 - [x] 상품 등록 <br>
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/1835e715-e601-40a1-b241-452e41149789" width="40%" height="40%">
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/1835e715-e601-40a1-b241-452e41149789" width="600" height="400">
 <br/>
 
 - [x] 판매목록 및 판매통계, 판매량 순위<br>
 - 판매자는 원하는 상품을 상품명, 수량, 가격, 이미지 등을 입력하여 올릴 수 있음.
 - 현재까지 판매된 판매목록, 통계, 판매량 순위를 볼 수 있음.
   
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/c5c5707f-6e51-4140-8517-596907029358" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e" width="40%" height="70%">
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/c5c5707f-6e51-4140-8517-596907029358" width="400" height="400"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e" width="400" height="400">
 <br/>
 
 #### 3) 판매자 마이 페이지 <br>
 
 - [x] 내 정보 수정하기<br>
 - 판매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/2c01bb40-ffeb-4841-9b52-b4d2be6a6eae" width="40%" height="70%">
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/2c01bb40-ffeb-4841-9b52-b4d2be6a6eae" width="600" height="400">
 <br/>
 
 #### 4) 구매자 메인 페이지(홈) <br>
@@ -203,14 +203,14 @@
 - [x] 장바구니 및 구매내역<br>
 - 구매자는 원하는 상품을 장바구니에 담고 구매할 수 있음.
 
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640" width="40%" height="70%"> 
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c" width="400" height="400"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640" width="400" height="400"> 
 <br/>
 
 #### 5) 구매자 마이 페이지 <br>
 - [x] 내정보 수정하기<br>
 - 구매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
 
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73" width="40%" height="70%"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d" width="40%" height="70%"> 
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73" width="400" height="400"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d" width="400" height="400"> 
 <br/>
 
 <!-- 
@@ -222,7 +222,7 @@
 <!-- <img src="https://github.com/kyounggseo/cycle/assets/102573192/4d42f7ce-aab0-478f-bf7e-7e319a28e0dc" width="50%" height="0%"> 
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/4cf108cf-77ce-42fb-9578-7baab0bc0530" width="30%" height="10%"> 
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/528ff50c-5049-481b-b801-2b63a99f21e8" width="80%" height="0%"> -->
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/c40deace-9fb4-45c2-a1be-5a49763e8e1b" width="40%" height="300%"> 
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/c40deace-9fb4-45c2-a1be-5a49763e8e1b" width="600" height="400"> 
 <br/>
 
 ### notion 링크
