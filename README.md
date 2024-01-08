@@ -5,23 +5,10 @@
 
 ## 목차
 - [들어가며](#들어가며)
-  - [프로젝트 기획 배경](#1-프로젝트-기획-배경)    
-  - [프로젝트 설명](#2-프로젝트-설명)    
-  - [프로젝트 기간](#3-프로젝트-기간)     
-
 - [구조 및 설계](#구조-및-설계)
-  - [사용 기술](#1-사용-기술)
-  - [아키텍처](#2-아키텍처)
-  - [DB 설계](#3-DB-설계)
-
 - [구현 결과](#구현-결과)
-  - [notion](#notion-링크)
-
 - [노하우 공유](#노하우-공유)
-
 - [마치며](#마치며)
-  - [알게된 점](#1-알게된-점)
-  - [후기](#2-후기)
 
 <br><br>
 
@@ -33,12 +20,12 @@
 ### 2. 프로젝트 설명
 - 권한에 따라 다른 기능 분리
     - SpringSecurity를 활용해 MasterAdmin, User 권한에 따라 다른 기능 분리
-- **게시판 -** CRUD 기능, 조회수, 페이징 및 검색 처리
-- **사용자 -** Security 회원가입 및 로그인, 회원정보 수정, 회원가입시 유효성 검사 및 중복 검사 <!-- OAuth 2.0 구글, 네이버 로그인, -->
+- **게시판 -** User, Class 관련 CRUD API 개발, 조회수, 페이징 및 검색 처리
+- **사용자 -** Security 회원가입 및 로그인, JWT를 이용하여 AccessToken, Refresh Token 발급, 회원정보 수정, 회원가입시 유효성 검사 및 중복 검사 <!-- OAuth 2.0 구글, 네이버 로그인, -->
 - 로그인 세션을 이용한 ROLE별로 구매자와 판매자 페이지가 렌더링이 되고, 구매자는 장바구니에 물품을 담고 구매하고, 구매자 정보와 판매자 정보가 History Entity에 담기게 되고, 그걸 바탕으로 구매통계와 판매통계를 구현했습니다.
-- 결제 기능 또한 구현 했습니다.
+- KaKao 결제 API
 <br><br>
-
+ 
 ### 3. 프로젝트 기간
 
 2023.08. ~ 2023.09 (5주)
@@ -67,8 +54,6 @@
 <br><br>
 
 ### 2. 아키텍처
-<!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/8b5e8e47-e1f4-4486-a188-551dd4b9d510) 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/4b9c51ba-b8f1-4b53-b991-9b2bfe0d2a05)<br/> -->
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/4b9c51ba-b8f1-4b53-b991-9b2bfe0d2a05" width="600" height="400">
 <br><br>
 
@@ -80,7 +65,6 @@
 
 ### 3. DB 설계
 
-<!-- ![image](https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf) -->
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf" width="600" height="400">
 
 <h3>DB 설계</h3>
@@ -213,28 +197,20 @@
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73" width="400" height="400"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d" width="400" height="400"> 
 <br/>
 
-<!-- 
-![image](https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73)<br>
-![image](https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d)<br> -->
-
 - [x] 금액 충전하기 <br>
 - 구매자의 잔액이 부족할 경우, 카카오 QR결제를 통해 원하는 금액을 선택 후 QR코드로 금액을 충전함. <br> 
-<!-- <img src="https://github.com/kyounggseo/cycle/assets/102573192/4d42f7ce-aab0-478f-bf7e-7e319a28e0dc" width="50%" height="0%"> 
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/4cf108cf-77ce-42fb-9578-7baab0bc0530" width="30%" height="10%"> 
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/528ff50c-5049-481b-b801-2b63a99f21e8" width="80%" height="0%"> -->
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/c40deace-9fb4-45c2-a1be-5a49763e8e1b" width="600" height="400"> 
 <br/>
 
-### notion 링크
+### 중고거래 프로젝트 설계 및 일정 관리
 [Notion link](https://www.notion.so/Cycle-e4e25da4a37b42258fbe5a3676250e5d?pvs=4)
 
 <br/>
 
 ## 노하우 공유
 
-<!-- 
-[[Spring] DAO와 DTO](https://github.com/kyounggseo/share-knowhow/blob/main/share%20knowhow%20/%5BSpring%5D%20DAO%EC%99%80%20DTO.md) -->
 [[Spring] DAO와 DTO](https://github.com/kyounggseo/cycle/issues/1#issue-2063206755)
+
 [[Spring] Spring Data JPA 정리](https://github.com/kyounggseo/share-knowhow/blob/main/share%20knowhow%20/%5BSpring%5D%20Spring%20Data%20JPA%20%EC%A0%95%EB%A6%AC.md)
 
 [[Spring] Spring Security](https://github.com/kyounggseo/share-knowhow/blob/main/share%20knowhow%20/%5BSpring%5D%20Spring%20Security.md)
