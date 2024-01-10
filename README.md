@@ -22,8 +22,12 @@
     - SpringSecurity를 활용해 MasterAdmin, User 권한에 따라 다른 기능 분리
 - **게시판 -** User, Class 관련 CRUD API 개발, 조회수, 페이징 및 검색 처리
 - **사용자 -** Security 회원가입 및 로그인, JWT를 이용하여 AccessToken, Refresh Token 발급, 회원정보 수정, 회원가입시 유효성 검사 및 중복 검사 <!-- OAuth 2.0 구글, 네이버 로그인, -->
-- 로그인 세션을 이용한 ROLE별로 구매자와 판매자 페이지가 렌더링이 되고, 구매자는 장바구니에 물품을 담고 구매하고, 구매자 정보와 판매자 정보가 History Entity에 담기게 되고, 그걸 바탕으로 구매통계와 판매통계를 구현했습니다.
-- KaKao 결제 API
+- 로그인 세션을 이용한 ROLE별로 구매자와 판매자 페이지 렌더링
+- 구매자는 장바구니에 물품을 담고 구매하고, 구매자 정보와 판매자 정보가 History Entity에 담기게 되고, 그걸 바탕으로 구매통계와 판매통계 구현
+- 판매자
+    - 판매자 페이지, 상품 CRUD, 상품관리, 판매 현황 조회
+- 구매자
+    - 마이페이지, 장바구니, 주문/주문취소, 주문 내역 조회, KaKao 결제 API
 <br><br>
  
 ### 3. 프로젝트 기간
@@ -32,13 +36,14 @@
 
 | 기간                | 설명                                                         |
 | ------------------- | ------------------------------------------------------------ |
-| 08.14 ~ 08.16       | 기획 및 설계 <br />  CRUD 설계                                 |
-| 08.17 ~ 08.20       | 메인화면 프론트 구성<br />DB 스키마 구성<br />메인화면 레이아웃 구성 |
-| 08.22 ~ 08.27        | Spring security로 회원가입, 로그인 구현<br />API 스펙 구성하기<br />DB 스키마 최종 완료<br />판매자 및 구매자를 나눠 페이지 렌더링을 다르게 함 |
-| 08.29 ~ 09.02         | Entity 클래스 설계 및 JPA로 연관관계 설정<br />마이페이지 제작<br /> 장바구니 구매 기능 구현 |
-| 09.02 ~ 09.06        | 장바구니 구매 오류 해결<br />구매내역 구현<br /> 판매 글쓰기: Post API 제작<br /> 판매 통계 및 판매 순위 구현 |
-| 09.08 ~ 09.12        | 판매 상세 페이지 구현<br />금액 충전 구현 및 최종 완성 <br /> 
-| 09.13 ~ 09.20        | 리팩토링 및 추가 기능 개선  | <!-- AWS S3에 이미지 저장 기능 구현 -->
+| 08.14 ~ 08.16       | 기획 및 Entity 설계 <br />  상품 기능 구현(CRUD) <br /> 상품 CRUD 관련 html |
+| 08.17 ~ 08.20       | 메인화면 프론트 구성 <br /> DB 스키마 구성 <br /> 메인화면 레이아웃 구성 |
+| 08.22 ~ 08.27        | Spring security로 회원가입, 로그인 구현 <br /> API 스펙 구성하기<br /> 주문 관련 Entity 추가 설계 <br /> 판매자/구매자 프로필 페이지와 연관된 회원정보수정 구현 |
+| 08.29 ~ 09.02         | Entity 클래스 설계 및 JPA로 연관관계 설정<br />상품관리 페이지, 판매내역 페이지<br /> 장바구니 구매 기능 구현 |
+| 09.02 ~ 09.06        | 장바구니 구매 오류 해결<br />개별 상품 구매 기능 추가<br /> 주문 취소 기능 구현<br /> 판매 통계 및 판매 순위 구현 |
+| 09.08 ~ 09.12        | 기능 별 예외 처리<br /> 충전 API 추가 <br /> 
+| 09.13 ~ 09.20        | 완성 및 리팩토링 및 추가 기능 개선  | 
+<!-- 기능 추가 // AWS배포, AWS S3에 이미지 저장 기능 구현 -->
 
 <br><br>
 
@@ -48,9 +53,9 @@
 1. Java : 11 version
 2. Spring Boot : 2.7.2
 3. Build Tool : Gradle 7.2
-4. DB : MariaDB Driver
-5. Etc : Thymeleaf, Spring Security, JPA, Lombok, Oauth2-client, Html/Css, JavaScript, Bootstrap 4.3.1
-<!-- 5. Deploy :  AWS EC2 -->
+4. DB : MariaDB Driver, MySQL Workbench
+5. Etc : Thymeleaf, Spring Security, Spring Web, Spring Data JPA, Lombok, Oauth2-client, Html/Css, JavaScript, Bootstrap 4.3.1
+<!-- 6. Deploy :  AWS EC2 -->
 <br><br>
 
 ### 2. 아키텍처
