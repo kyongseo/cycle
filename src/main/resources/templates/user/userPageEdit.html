@@ -24,8 +24,8 @@
                 <form th:action="@{/user/{id}/update(id=${user.id})}" method="post" enctype="multipart/form-data">
                     <div class="row g-3">
                         <div class="col-12">
-                            <label for="name" class="form-label">Your name</label>
-                            <input type="text" class="form-control" id="name" name="name" th:placeholder="${user.name}" readonly>
+                            <label for="name" class="form-label">닉네임</label>
+                            <input type="text" class="form-control" id="name" name="name" th:placeholder="${user.name}">
                         </div>
 
 
@@ -64,7 +64,7 @@
                         </div>
 
                         <div class="col-12">
-                            <label for="file" class="form-label">상품 이미지</label>
+                            <label for="file" class="form-label">유저 이미지</label>
                             <input type="file" class="form-control" id="file" name="file">
                         </div>
 
@@ -79,7 +79,7 @@
     </main>
 
     <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">2023 Spring Project</p>
+        <p class="mb-1">2024 Spring Project</p>
     </footer>
 </div>
 </body>
