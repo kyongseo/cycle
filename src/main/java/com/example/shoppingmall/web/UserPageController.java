@@ -76,9 +76,6 @@ public class UserPageController {
         return "redirect:/user/{id}";
     }
 
-
-
-
     // 장바구니
     @GetMapping("/user/{id}/cart")
     public String userCartView(@PathVariable("id") Integer id, Model model, @AuthenticationPrincipal PrincipalDetails principalDetails) {
