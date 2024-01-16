@@ -48,7 +48,7 @@
 <br><br>
 
 ## 구조 및 설계
-### 1. 사용 기술
+### 1. Tech Stack
 
 1. Java : 11 version
 2. Spring Boot : 2.7.2
