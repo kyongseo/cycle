@@ -62,15 +62,15 @@
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/4b9c51ba-b8f1-4b53-b991-9b2bfe0d2a05" width="600" height="400">
 <br><br>
 
+
+### 3. ERD
 <!-- 
 ## 🛠 ERD
 ![image](https://github.com/kyounggseo/cycle/assets/102573192/3c9aa412-eed2-4727-88b4-784dfdb40b18)
 <br><br>
--->
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf" width="600" height="400"> -->
 
-### 3. DB 설계
-
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf" width="600" height="400">
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/445e9ce2-822e-46b5-8a98-6a70b38950d9" width="600" height="400">
 
 <h3>DB 설계</h3>
 
