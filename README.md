@@ -64,12 +64,6 @@
 
 
 ### 3. ERD
-<!-- 
-## 🛠 ERD
-![image](https://github.com/kyounggseo/cycle/assets/102573192/3c9aa412-eed2-4727-88b4-784dfdb40b18)
-<br><br>
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/dd625fb1-8fad-49c7-811f-f32b1243b8bf" width="600" height="400"> -->
-
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/445e9ce2-822e-46b5-8a98-6a70b38950d9" width="600" height="400">
 
 <h3>DB 설계</h3>
@@ -170,37 +164,46 @@
 #### 2) 판매자 메인 페이지(홈)<br>
 
 - [x] 상품 등록 <br>
+<!--
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/1835e715-e601-40a1-b241-452e41149789" width="600" height="400">
 <br/>
+-->
 
 - [x] 판매목록 및 판매통계, 판매량 순위<br>
 - 판매자는 원하는 상품을 상품명, 수량, 가격, 이미지 등을 입력하여 올릴 수 있음.
 - 현재까지 판매된 판매목록, 통계, 판매량 순위를 볼 수 있음.
-  
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/c5c5707f-6e51-4140-8517-596907029358" width="400" height="400"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e" width="400" height="400">
-<br/>
+
+<!-- 
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/c5c5707f-6e51-4140-8517-596907029358" width="400" height="400"> <br/>
+
+<img src="https://github.com/kyounggseo/cycle/assets/102573192/c74e9e4c-558a-4eba-8c1c-fa63d2f71f6e" width="400" height="400">
+<br/> 
+-->
 
 #### 3) 판매자 마이 페이지 <br>
 
 - [x] 내 정보 수정하기<br>
 - 판매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
-<img src="https://github.com/kyounggseo/cycle/assets/102573192/2c01bb40-ffeb-4841-9b52-b4d2be6a6eae" width="600" height="400">
+<!-- <img src="https://github.com/kyounggseo/cycle/assets/102573192/2c01bb40-ffeb-4841-9b52-b4d2be6a6eae" width="600" height="400">
 <br/>
+-->
 
 #### 4) 구매자 메인 페이지(홈) <br>
 
 - [x] 장바구니 및 구매내역<br>
 - 구매자는 원하는 상품을 장바구니에 담고 구매할 수 있음.
-
+<!-- 
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/3dc711af-0779-4f3e-9a60-b28adc5d181c" width="400" height="400"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/97856725-6d2b-4490-ba2d-31fa84c06640" width="400" height="400"> 
 <br/>
+-->
 
 #### 5) 구매자 마이 페이지 <br>
 - [x] 내정보 수정하기<br>
 - 구매자는 닉네임, 주소, 전화번호, 사용자 사진 변경이 가능함.<br>
-
+<!-- 
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/9b9a7649-9937-46ba-a73e-7a1a81228b73" width="400" height="400"> <img src="https://github.com/kyounggseo/cycle/assets/102573192/a6fdecb4-c7c1-4725-9e83-a0b4f347156d" width="400" height="400"> 
 <br/>
+-->
 
 - [x] 금액 충전하기 <br>
 - 구매자의 잔액이 부족할 경우, 카카오 QR결제를 통해 원하는 금액을 선택 후 QR코드로 금액을 충전함. <br> 
@@ -244,7 +247,7 @@
 - Spring MVC에서 제공하는 Interceptor기능으로 요청 유효성을 판단할 수 있었습니다.
 <br><br>
 
-### 2. 후기
+<!-- ### 2. 후기
 혼자 독학하며 처음 만들어본 프로젝트이기 때문에,   
 공부한 내용을 사용해보는 설렘만큼이나 부족한 부분에 대한 아쉬움도 많이 남았습니다.   
 효율적인 설계를 위해 고민하고 찾아보며 실제로 많이 공부할 수 있었던 부분도 많았습니다.   
@@ -262,3 +265,4 @@
 이를 통해 더 나은 웹 애플리케이션을 만들 수 있을 것 같다는 자신감도 생겼습니다.   
 
 끝까지 읽어주셔서 감사합니다.
+-->
