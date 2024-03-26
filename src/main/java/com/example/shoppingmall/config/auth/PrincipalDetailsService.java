@@ -24,10 +24,13 @@ public class PrincipalDetailsService implements UserDetailsService {
     private final UserRepository userRepository;
     //private UserRepository userRepository;
 
+    /* username이 DB에 있는지 확인 */
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 
         User userEntity = userRepository.findByUsername(username);
+//        User userEntity = userRepository.findByUsername(username).orElseThrow(() ->
+//                new UsernameNotFoundException("해당 사용자가 존재하지 않습니다. : " + username));
 
         if(userEntity == null) {
             return null;

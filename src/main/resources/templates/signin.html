@@ -24,6 +24,15 @@
                                     <span class="h1 fw-bold mb-0">로그인</span>
                                 </div>
 
+                                <!-- 실패 메시지 출력
+                                <div th:if="${session.errorMessage != null}" class="alert alert-danger" role="alert">
+                                    <p th:text="${session.errorMessage}">아이디 또는 비밀번호가 올바르지 않습니다.</p>
+                                </div> -->
+
+                                <div th:if="${param.error}" class="alert alert-danger" role="alert">
+                                    <p>아이디 또는 비밀번호가 올바르지 않습니다.</p>
+                                </div>
+
                                 <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
 
                                 <div class="form-outline mb-4">
