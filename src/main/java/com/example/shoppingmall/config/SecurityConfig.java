@@ -16,11 +16,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private CustomAuthFailureHandler customAuthFailureHandler;
 
- //   private final PrincipalDetailsService principalDetailsService;
-    /* 로그인 실패 핸들러 의존성 주입 */
- //   private final AuthenticationFailureHandler customFailureHandler;
-
-
     @Bean
     public BCryptPasswordEncoder encoder() {
         // DB 패스워드 암호화
