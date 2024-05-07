@@ -158,6 +158,7 @@
 - 회원가입 여부를 체크함.<br>
 - 비밀번호 일치 여부를 체크함.<br>
 - 보안을 고려하여 JWT(access token, refresh token) 방식을 통해 로그인 인증.<br>
+- 로그인 실패시 실패 문구 (총 3번)<br>
 <img src="https://github.com/kyounggseo/cycle/assets/102573192/c08ad3e6-fb47-401b-9d8b-33cc23c60e7a" width="600" height="400">
 <br/>
 
